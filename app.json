@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sagar23.uberclone"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ae61e59f-ac73-4c6b-96a1-0ce0a642b3d8"
+      }
+    },
+    "plugins": [
+      "sentry-expo"
+    ]
   }
 }
